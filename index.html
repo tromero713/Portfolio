@@ -6,39 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tasha Romero</title>
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav id="header-nav" class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a href="index.html">
-                        <h1>tasha romero</h1>
-                        <!-- <ul>
-                            <li>About</li>
-                            <li>Skills</li>
-                            <li>Projects</li>
-                            <li>Contact</li>
-                        </ul> -->
-                    </a>
-                </div>
+<header>
+    <nav id="header-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><h1>tasha<br>romero</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu" 
+        aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="main-menu" >
+            <ul id="navBarLi">
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+      </nav> 
+</header>
 
+    <img src="img/main.png" alt="Landing Page" id="mainImg">
+    
+    
+    
 
-            </div>
-        </nav>
-    </header>
-    <div class="container-fluid">
-    <img src="img/main.png" alt="Landing Page" width="100%" height="zuto">
-    </div>
 
     <!-- JQuery (Bootstrap JS plugins depend on it)-->
-    <script src="bootstrap/js/jquery-2.1.4.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bootstrap/js/script.js"></script>
 
-    
 </body>
 </html>

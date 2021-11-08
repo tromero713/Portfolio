@@ -8,28 +8,57 @@ body {
 }
 
 
-/** NAVIGATION **/
+/************* NAVIGATION **************/
 #header-nav {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.0);
     border-radius: 0;
     border: 0;
 }
 
-.navbar-header {
+/***NAME***/
+.navbar-brand {
     padding-top: 10px;
 }
 
-.navbar-header a:hover, a:link {
-    text-decoration: none;
-}
 
-.navbar-header h1 {
+.navbar-brand h1 {
     font-family: 'Fira Mono', monospace;
-    color: white;
-    font-size: 1.5em;
-    margin-left: 2%;
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 1em;
+    margin-top: 2%;
+    margin-left: 10%;
     padding-left: 10%;
 }
+
+
+#navBarLi, #navBarLi a:hover, #navBarLi a:focus{
+   color: plum;
+   font-family: 'Fira Mono', monospace;
+   list-style: none;
+   float:right; 
+   text-align: right;
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.534);
+    
+      
+}
+
+.navbar-dark .navbar-toggler {
+    color: plum;
+    outline: none;
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 0.0)
+  }
+
+.navbar-light .navbar-toggler {
+    color: plum;
+    outline: none;
+    box-shadow: none;
+    border-color: rgba(255, 255, 255, 0.0)
+}
+
 
 div p {
     font-family: 'Fira Mono', monospace;
@@ -40,5 +69,16 @@ div p {
     padding-left: 2%;
     margin-left: 2%;
     
-}
+} 
 /*****LANDING PAGE*****/
+
+#mainImg {
+    object-fit: cover;
+    width: 100%;
+    height: 1042px}
+
+#sideImg {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
