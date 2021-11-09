@@ -37,7 +37,8 @@ body {
 .fa-instagram:hover, .fa-instagram:focus,
 .fa-twitch:hover, .fa-twitch:focus,
 .fa-twitter:hover, .fa-twitter:focus,
-.fa-linkedin:hover, .fa-linkedin:focus {
+.fa-linkedin:hover, .fa-linkedin:focus,
+.fa-github:hover, .fa-github:focus {
     color: plum;
   }
 
