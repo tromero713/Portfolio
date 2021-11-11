@@ -42,6 +42,15 @@ body {
     color: plum;
   }
 
+
+  .fa-instagram:link, .fa-instagram:visited,
+  .fa-twitch:link, .fa-twitch:visited,
+  .fa-twitter:link, .fa-twitter:visited, 
+  .fa-linkedin:link, .fa-linkedin:visited,
+  .fa-github:link, .fa-github:visited {
+    color: rgba(0, 0, 0, 0.4);
+}
+
 .nav-link {
     color: rgba(0, 0, 0, 0.4);
     font-family: 'Fira Mono', monospace;
@@ -69,7 +78,8 @@ body {
     "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(221, 160, 221, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.custom-toggler .navbar-toggler-icon {
+.custom-toggler .navbar-toggler-icon, 
+.custom-toggler .navbar-toggler-icon:visited  {
     background-image: url(
     "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.53)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -88,9 +98,11 @@ div p {
 /*****LANDING PAGE*****/
 
 #mainImg {
+    
     object-fit: cover;
     width: 100%;
-    height: 1042px}
+    height: 1000px 
+}
 
 #sideImg {
     object-fit: cover;
@@ -102,4 +114,14 @@ div p {
     object-fit: contain;
     width: 20px;
     height: 20px;
+}
+
+@media only screen 
+and (min-width : 1824px) {
+
+    #mainImg {
+    object-fit: cover;
+    width: 100%;
+    height: auto 
+}
 }
