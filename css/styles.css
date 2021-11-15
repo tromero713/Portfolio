@@ -117,7 +117,7 @@ div p {
 }
 
 @media only screen 
-and (min-width : 1824px) {
+and (min-width : 1450px) {
 
     #mainImg {
     object-fit: cover;
